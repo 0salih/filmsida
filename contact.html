@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - The Lorum Ipsum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Headlines - The Lorem Ipsum</h1>
+    </header>
+    <nav>
+        <ul class="linktext">
+            <li><a href="index.html">Headlines</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <form action="thanks.html" method="post">
+                <fieldset>
+                    <legend>Personalia</legend>
+                    <label>Name
+                        <input type="text" name="name" required>
+                    </label>
+                    <label>Email
+                        <input type="email" name="Email" required>
+                    </label>
+                    <label>Country
+                        <select name="Country">
+                            <option value="">(select one)</option>
+                            <option value="1">AUS</option>
+                            <option value="2">CAN</option>
+                            <option value="3">UK</option>
+                            <option value="4">US</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select</legend>
+                    <p>What departmantent do you want to contact?</p>
+                    <label>News
+                        <input type="checkbox" name="department" value="news">
+                    </label>
+                    <label>Sports
+                        <input type="checkbox" name="department" value="sports">
+                    </label>
+                    <p>Do you want a replay?</p>
+                    <label>Yes
+                        <input type="radio" name="replay" value="yes">
+                    </label>
+                    <label>No
+                        <input type="radio" name="replay" value="no">
+                    </label>
+                </fieldset>
+                <div class="submit">
+                    <input type="submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>London 19&#176;</footer>
+</body>
+
+</html>
